@@ -66,3 +66,22 @@ or ruling missing) so a future phase can unblock precisely.
 - G-TT-01, G-JY-01, G-BH-01, G-VS-01, G-PR-01, G-DK-01, G-GG-01, G-NN-01:
   unchanged from CORPUS_ACQUISITION_MATRIX.md; none blocks 2A pre-gates
   (pre-gates are scoped to acquired strata by construction).
+
+## Phase 2B status update (append-only; prior rows stand)
+
+- G-NS-01: SPLIT. Drive file still auth-walled (re-attempted 2026-09-27).
+  Adhyāya-III evidence PARTIALLY_ACQUIRED via verified same-edition
+  alternate (archive.org DLI; `corpus/VOL3_ADHYAYA_III_NOTES.md`). Adhyāya
+  IV–V (Jha Vol. IV) still missing — D3-part/D4-part still blocked on it.
+- G-UD-01 / G-PAR-01: BLOCKED (specification insufficient; no edition on
+  record; Jha's manuscript remark explains the scarcity). Fragments-only
+  status quo. D1-Q1/Q3, D5-Q1, D7-Q5 unchanged-blocked.
+- G-DG-01: NOT_SPECIFIED with precise shopping list
+  (`G-DG-01_SPECIFICATION_GAP.md`). D7-Q1 still P1-blocked; occurrence-
+  discipline adoption still forbidden.
+- Narrowed (not closed): D7 NS-mode (vyatireka-practice cousin from 3.1.1–3
+  available for next adjudication round); D5 practice bucket
+  (double-exclusion locution); D1 R1 base (designation-doubt).
+- `dignaga_trairupya.md`, `TRIARUPYA_COMPARISON.md`,
+  `parisuddhi_targeted_extraction.md`: deliberately not created (no material;
+  recorded in `corpus/ACQUISITION_PHASE_2B.md`).

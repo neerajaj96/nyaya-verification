@@ -105,3 +105,42 @@ Drive page fetch → HTTP 401 / sign-in redirect).
   without the PDFs.
 - No copyrighted PDF is committed to the public repository (see
   `traceability/PHASE1_5_VALIDATION.md`).
+
+## Volume III — ACQUIRED VIA ALTERNATE LOCATION (Phase 2B, 2026-09-27)
+
+- Drive file `15exfrXy9VRb554fuzL4rZGCoJlX-6sn-` (G-NS-01 target) REMAINS
+  inaccessible (re-attempts 2026-09-27: gdown uc + view forms failed;
+  direct HTTPS returns the sign-in page). The Drive file's identity and
+  contents are STILL UNVERIFIED — nothing below is claimed about it.
+- Acquired instead: SAME EDITION (Jha / Motilal Banarsidass 1984 reprint of
+  Indian Thought 1912–19; title, imprint, and Asiatic-Society library stamps
+  match Vols. 1–2) via open access:
+  `https://archive.org/download/in.ernet.dli.2015.461557/2015.461557.The-Nyaya-sutras-Of-Goutama-Vol-3.pdf`
+  (Digital Library of India scan; openly downloadable; PDF kept OUTSIDE the
+  repo at `/tmp/opencode/ingest/phase15/vol3_ia.pdf`).
+- Integrity: 26,778,493 bytes (matches archive metadata size + md5
+  `d0aafbc3da31b1b8909837e4da79f8d3` as listed); SHA-256:
+  `6d5004fc36af69a1e60134f663ba782d85e1d5c9eb77f180340477ea014d2115`;
+  361 PDF pages (`pdfinfo`: ScanFix Enhanced, 2015-06-25); archive OCR
+  derivative `..._djvu.txt` (784,123 bytes per metadata; 773,257 chars
+  extracted) used as working text.
+- Coverage (verified): Jha Vol. III = **Adhyāya III complete** (Discourse
+  III, Jha pp. 1067–1400+, continuous pagination after Vol. II): soul vs
+  sense-organs/body/mind; eternity; body/sense-organ materiality and number;
+  sense-objects; buddhi transience; momentariness (Bauddha kṣaṇikatva)
+  debate; buddhi-as-soul-quality; mind; body/adṛṣṭa. Ends "Thus ends the
+  Bhāṣya on Adhyāya III" (3.2.72).
+- Layers: same six as Vols. 1–2 (root transliterated + translated; Bhāṣya +
+  Vārttika in full; Tātparya/Pariśuddhi/Bhāṣyachandra fragments in notes;
+  Jha footnotes). Notable: 3.1.1–3 negative-concomitance debate carries
+  Tātparya + Pariśuddhi placement dispute IN-TEXT.
+- Sanskrit/Devanāgarī: 0 extractable chars (roman-only + scan-image
+  footnotes, same convention as Vols. 1–2).
+- Redistribution: openly downloadable from archive.org (DLI open scan);
+  holybooks.com likewise lists the same 4-volume set as free PDFs (its
+  server returned Cloudflare 520 for Vol. 3 on 2026-09-27 — recorded, not
+  retried further). PDF NOT committed to this repo (see validation files).
+- Consequence for G-NS-01: split status — Drive file still gapped;
+  Adhyāya-III evidence gap CLOSED via verified same-edition alternate;
+  Adhyāya IV–V (Jha Vol. IV) still missing. Detail in
+  `corpus/ACQUISITION_PHASE_2B.md`.

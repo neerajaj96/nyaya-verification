@@ -69,3 +69,16 @@ Extraction method (`pdftotext -layout`) is documented in `source_audit.md`.
   `traceability/CORPUS_IMPACT_ON_DECISIONS.md` (D1–D10 re-evaluation, none
   closed), `traceability/PHASE1_5_VALIDATION.md`.
 - PDFs are NOT vendored (see `corpus/VOLUMES.md` + validation report).
+
+## Phase 2B additions (targeted acquisition round 2, 2026-09-27)
+
+- Jha Vol. III (Adhyāya III) via archive.org DLI open scan
+  (`https://archive.org/download/in.ernet.dli.2015.461557/...Vol-3.pdf`,
+  26,778,493 bytes, SHA-256
+  `6d5004fc36af69a1e60134f663ba782d85e1d5c9eb77f180340477ea014d2115`,
+  361 pages) + OCR derivative `_djvu.txt`. Identity verified same-edition-
+  family (imprint/stamps/continuous pagination). Drive G-NS-01 file itself
+  still ungapped and unclaimed. PDF kept OUTSIDE the repo.
+- No Pariśuddhi/Dignāga files acquired (BLOCKED / NOT_SPECIFIED per
+  `corpus/ACQUISITION_PHASE_2B.md`); comparison/extraction files for them
+  deliberately not created.
