@@ -106,3 +106,12 @@ Extraction method (`pdftotext -layout`) is documented in `source_audit.md`.
 - New files: research/classical_sources/comparative/ (6 files) +
   traceability/COMPARATIVE_D1_D10_IMPACT.md, R_REQUIREMENTS_ASSESSMENT.md,
   MINIMUM_NEXT_EXPERIMENT.md, ARCHITECTURE_COMPARISON_NOTES.md.
+
+## Vol. III adjudication (Drive-walled; alternate-verified, 2026-09-27)
+
+- Drive `15exfrXy9VRb554fuzL4rZGCoJlX-6sn-`: auth-walled (3 methods,
+  05:38–05:41 UTC, sign-in signature) — no file, nothing claimed.
+- Alternate (archive.org DLI, SHA-256 `6d5004fc…014d2115`, 361 pp):
+  title/imprint/closing image-verified same Jha/Motilal 1984 family;
+  Adhyāya III complete; adjudication `adjudication/JHA_VOL3_ADJUDICATION.md`
+  + identity `adjudication/JHA_VOL3_SOURCE_IDENTITY.md`. PDF outside repo.

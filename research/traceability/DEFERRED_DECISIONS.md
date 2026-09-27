@@ -118,3 +118,13 @@ or ruling missing) so a future phase can unblock precisely.
   in-repo).
 - Minimum experiment: SELECTION SPEC only (12 cases, case 3 BLOCKED);
   runnable conditions unmet.
+
+## Vol. III adjudication update (append-only)
+
+- Jha I–IV NS corpus COMPLETE same-edition (III via verified alternate;
+  Drive file still unverified, downgraded to P3 provenance curiosity).
+- D6 S5c ancestry: ātman-duel contexts added (3.2.4-class fragments).
+- D7 vyatireka-practice: second Tier-0/1 witness (3.1.1–3 universality).
+- D10 routing: attribution precedent (3.1.8–11 split) added to C-NC10 list.
+- No D-variable closed; no new procedures; homonym guard (prakaraṇa-section
+  vs fallacy) + OCR-term-caution logged as method candidates.
