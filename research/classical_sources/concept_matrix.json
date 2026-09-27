@@ -1,0 +1,1381 @@
+{
+  "concepts": [
+    {
+      "concept": "pramana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.4-7 (Jha Vol. 1, Adhyaya I acq.)",
+          "text": "Four instruments: perception, inference, analogy, word (definitions at 1.1.4/5/6/7; 1.1.4-5 passages read, 1.1.6-7 coverage verified, text not extracted)"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.2.1 (Jha Vol. 2, p.882)",
+          "text": "Objector: number cannot be four only — aitihya (tradition), arthapatti (presumption), sambhava (deduction), abhava (antithesis) are also instruments"
+        },
+        {
+          "layer": "SOURCE_LATER_COMMENTARY",
+          "locator": "Parishuddhi on 2.2.1 (Jha Vol. 2, p.881)",
+          "text": "Adhyaya II Lesson I settled correctness + mutual exclusivity of the four; Lesson II takes up number and characteristics; replies to Srivatsa"
+        }
+      ],
+      "definitions": [
+        {
+          "layer": "SOURCE_TRANSLATOR_NOTE",
+          "locator": "Jha 2.2.1 intro",
+          "text": "Four Lesson-I pramanas shown mutually exclusive in definition; number still open — definition-exclusivity does not settle numerosity"
+        }
+      ],
+      "qualifications": [
+        "NS 2.2.1-12 incompletely extracted (objector + reply sampled at 2.2.1 only)"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Four-only (Nyaya siddhanta) vs. eight (aitihya/arthapatti/sambhava/abhava objector, NS 2.2.1) vs. Buddhist two / Carvaka one / Mimamsa six — latter three NOT sourced in-corpus; listed as positions to source, not facts"
+      ],
+      "engineering_relevance": [
+        "Baseline PRAMANA_STRENGTH table (4/3/2/1/0) has no 2.2.1-12 backing (OPEN_DECISIONS D2)"
+      ],
+      "formalization_risk": [
+        "Numerosity dispute means a verifier must parameterize its pramana inventory, not hard-code four"
+      ]
+    },
+    {
+      "concept": "prama",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-bhasya"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "Varttika-introductory / pravrtti-samarthya passage (Jha Vol. 1, L1244-1302)",
+          "text": "Fruitful activity (samarha/saphala pravrtti) follows apprehension by real pramanas; unfruitful follows false ones — prama as successful-cognition anchor"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No standalone prama-laksana extracted; role inferred from pravrtti passage only"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Candidate success-criterion for future evaluation harnesses (not implemented)"
+      ],
+      "formalization_risk": [
+        "Do not conflate prama (veridical cognition) with anumiti (a species of it)"
+      ]
+    },
+    {
+      "concept": "pramatr",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-bhasya"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "Same pravrtti passage (Jha Vol. 1)",
+          "text": "The man (agent) acts after apprehending his object — pramatr as cognizing agent"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Agent role only; no pramatr-laksana extracted"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Baseline WorldModel has loci but no agent/speaker roles; apta-tracking would need them"
+      ]
+    },
+    {
+      "concept": "prameya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1, sixteen padarthas)",
+          "text": "prameya listed among the sixteen; twelve prameyas detailed later in Adhyaya I (coverage verified, detail not extracted)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Twelvefold prameya detail not yet extracted"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline ontology seeds cover dravya/guna/karma, not the 12 prameyas"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "anumana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Nyaya-varttika",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.5 (Jha Vol. 1, p.153)",
+          "text": "athatatpurvakam trividham anumanam purvavac chesavat samanyatodrstam ca"
+        },
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1.1.5 Bhashya (Jha Vol. 1, pp.153-154)",
+          "text": "tatpurvaka = perception of probans-probandum relation + remembrance of probans; non-perceptible inferred thereby"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "NS 2.1.37 Varttika (Jha Vol. 2, p.799)",
+          "text": "What inference is was explained under 1-1-5; examples of the three kinds follow"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.1.37 (Jha Vol. 2, p.798, purvapaksa)",
+          "text": "anumanam apramanam — premises untrue given obstruction, demolition, resemblance"
+        }
+      ],
+      "definitions": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.5",
+          "text": "Inference, led up to by perception, threefold: purvavat (cause->effect), sesavat (effect->cause), samanyatodrsta (uniformity-observed)"
+        }
+      ],
+      "qualifications": [],
+      "examples": [
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "1.1.5 / 2.1.37",
+          "text": "Clouds->rain; full river->rained upstream; ants-with-eggs->rain (contested); peacock-scream->peacock/cloud"
+        }
+      ],
+      "counterexamples": [
+        "Dam-blocked river (obstruction); demolished nest (demolition); mimicked scream (resemblance) — NS 2.1.37"
+      ],
+      "commentarial_developments": [
+        "Parishuddhi (2.1.37): even wrong premises yield some cognition — apramana glossed as never yielding definite right cognition",
+        "Varttika re-reads peacock case as cloud-inference so the three cases span past/present/future"
+      ],
+      "school_disagreements": [
+        "Bauddha objector denies inference any pramanya (2.1.37); siddhanta replies (2.1.38, text not extracted)"
+      ],
+      "engineering_relevance": [
+        "Baseline implements TS svartha/parartha shape, not NS trividha scheme (traceability T2)"
+      ],
+      "formalization_risk": [
+        "NS temporal/causal trividha vs TS demonstrative panca-avayava are different organizations; do not merge silently"
+      ]
+    },
+    {
+      "concept": "anumiti",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §2 (Phase 0, P1 PDF ~88)",
+          "text": "paramarsajanyam jnanam anumitih, with paksata-sahakrta qualification in D"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Term/concept is TS-synthesis stratum; NO NS/Bhashya/Varttika occurrence verified — the early stratum speaks of pramana/prameya cognition, not anumiti"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline forward-chain asserts anumana-sourced facts; paksata gate missing (D1)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "pratyaksa",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Nyaya-varttika",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.4 (Jha Vol. 1; definition discussed pp.150-152)",
+          "text": "indriyarthasannikarsotpannam jnanam avyapadesyam avyabhichari vyavasayatmakan (wording via Jha discussion; full sutra text not cleanly extracted)"
+        },
+        {
+          "layer": "SOURCE_TRANSLATOR_NOTE",
+          "locator": "Jha on 1.1.4 (Vol. 1, pp.150-152)",
+          "text": "Refutations of Dignaga (kalpanapodha), Jaimini (contact-only), Varaganya(?)/sense-function definitions"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Dignaga kalpanapodha vs NS contact+non-erratic+determinate definition; Jaimini contact-only rejected (contact also yields doubt/error)"
+      ],
+      "engineering_relevance": [
+        "Baseline treats pratyaksa as strongest source tag (D2 disputes the ranking, not the category)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "upamana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.6 (Jha Vol. 1, within acquired Adhyaya I)",
+          "text": "Coverage verified; passage text not yet extracted"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS Adhyaya II contents (Jha Vol. 2, p.816)",
+          "text": "Examination of Analogical Cognition — section present, text not extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Upamana passages located but not read; all baseline-upamana traceability stays TS-based (Phase 0)"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Gavaya/cow TS stock case must not be back-projected onto NS 1.1.6 without reading it"
+      ]
+    },
+    {
+      "concept": "sabda",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.7 (Jha Vol. 1, within acquired Adhyaya I)",
+          "text": "aptopadesah sabdah (standard wording; passage not extracted in Phase 1.5)"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.2 sound/word sections (Jha Vol. 2, pp.825-1066)",
+          "text": "Word in general/particular; non-eternality of words; sound modifications; word potencies; vyakti/akrti/jati denotation"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Mimamsa word/sound eternality vs Nyaya non-eternality (2.2 sections; detail not extracted); Bauddha apoha vs vyakti/akrti/jati (extracted, see apoha)"
+      ],
+      "engineering_relevance": [
+        "Baseline RAG-as-apta has no 1.1.7/2.2 backing (D9)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "arthapatti",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.2.1 objector (Jha Vol. 2, p.882)",
+          "text": "Presumption (arthapatti) listed as 5th instrument by the objector; Nyaya reply not extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No Nyaya acceptance of arthapatti as independent pramana in-corpus; Mimamsa ownership unsourced here"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Do not add arthapatti to any formal pramana inventory without the 2.2.1-12 siddhanta"
+      ]
+    },
+    {
+      "concept": "anupalabdhi",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS Adhyaya II (Jha Vol. 2; 2 occurrences located)",
+          "text": "Occurrences located by search; passages not yet extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Unverified whether abhava-as-pramana (2.2.1 objector's 8th) or hetu-context; extraction pending"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "No anupalabdhi formalization permitted until passages are read"
+      ]
+    },
+    {
+      "concept": "paksa",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha",
+        "Nyaya-varttika"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §14 (Phase 0)",
+          "text": "sandigdhasadhyavan paksah — doubt-locus; operative notion refined to paksata-substratum in D"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "Varttika/Parisuddhi debate frg. (Jha Vol. 1, 1-2-8/9 region)",
+          "text": "Bauddha (Dignaga-adjacent): probans must subsist in sapaksa only; emphasis disputes over paksa/sapaksa wording"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No NS sutra defines paksa; the early stratum centers drstanta/sapaksa roles instead"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline locus-existence check approximates asrayasiddhi, not paksata (D1)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "sadhya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-bhasya",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1.1.1/1.2 debate contexts (Jha Vol. 1)",
+          "text": "probandum (sadhya) as what-is-to-be-proved, paired with probans throughout"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Sadhya as standalone pada-definition belongs to TS stratum (§14-16); NS uses probandum functionally"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Baseline (hetu,sadhya) keying follows TS relata; NS probans/probandum relation-talk is not yet formalized"
+      ]
+    },
+    {
+      "concept": "hetu",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1-1-5 region (Jha Vol. 1, L3476)",
+          "text": "Called hetu/cause: that upon which the reasoning turns; its statement figuratively called inference"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.32 (Jha Vol. 1, p.955)",
+          "text": "hetu as 2nd of five reasoning-factors"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Parisuddhi two-factor reading: hetu-cognition = remembrance of concomitance + recognition of presence in subject"
+      ],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "vyapti",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha",
+        "Nyaya-varttika",
+        "Nyaya (later commentary)"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "NS 1-1-5 Varttika (Jha Vol. 1, pp.175+)",
+          "text": "Bauddha: smoke/fire invariable concomitance under scrutiny — cause-effect? same-substratum inherence? mere relation? First alternative accepted (effect->material-cause texture)"
+        },
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1-1-5 Bhashya (Jha Vol. 1, L3476)",
+          "text": "Instance (drshtanta) presents the concomitance-object to remembrance as if perceived"
+        },
+        {
+          "layer": "SOURCE_LATER_COMMENTARY",
+          "locator": "Parisuddhi frg. at 1-2-8/9 (Jha Vol. 1)",
+          "text": "Unknown concomitance -> vyapyatvasiddha (threefold asiddha)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "The TERM vyapti as technical definiendum is TS-stratum (§4); NS/Bhashya/Varttika speak of concomitance/remembrance without the term — see vyapti_historical_development.md"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Bauddha presses concomitance alternatives; Nyaya side accepts cause-effect texture for smoke/fire"
+      ],
+      "engineering_relevance": [
+        "Baseline counterexample-check covers only the anvaya-violation fragment (Phase 0 verdict retained)"
+      ],
+      "formalization_risk": [
+        "Back-projecting TS §4 definition onto NS strata is the central anachronism risk of this project"
+      ]
+    },
+    {
+      "concept": "anvaya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§11-13 (Phase 0)",
+          "text": "hetusadhyayor aptir anvayavyaptih (D); hearth drstanta"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No NS/Bhashya/Varttika anvaya-term occurrence verified; early stratum works via examples (kitchen/hearth) not the term"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Baseline kind-field is TS vocabulary without NS mechanism (D8)"
+      ]
+    },
+    {
+      "concept": "vyatireka",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§11-13 (Phase 0)",
+          "text": "tadabhavayor aptir vyatirekavyaptih; lake drstanta; kevalavyatireki (earth/odour) with no anvaya-drstanta"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No NS/Bhashya/Varttika vyatireka-term occurrence verified"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline has NO absence-absence check (D8)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "drstanta",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "drstanta among the sixteen padarthas"
+        },
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1-1-5 Bhashya (Jha Vol. 1, L3476)",
+          "text": "Instance as perceptional: presents the concomitance-object as if perceived; reasoner remembers, then states the instance"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "NS 1-1-5 Varttika smoke/fire debate (Jha Vol. 1)",
+          "text": "Observed-concomitance locus (kitchen) vs inference locus (hill) gap pressed by Bauddha"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Kitchen/hearth as the fixed observed locus; hill/mountain as inference locus — stable across strata"
+      ],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline sapaksa string = drstanta-slot ancestor; niścaya qualifier missing (D6)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "udaharana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.32 (Jha Vol. 1, p.955)",
+          "text": "Example (udaharana) as 3rd factor of reasoning, with statement-of-example (upanaya-adjacent exhibit)"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §9 (Phase 0)",
+          "text": "vyaptipratipadakam udaharanam — must state vyapti + drstanta"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "TS adds the vyapti-stating requirement to the NS factor-slot"
+      ],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "upanaya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.32 (Jha Vol. 1, p.955)",
+          "text": "Re-statement/application as 4th factor (Jha: Re-statement; tatha ca ayam in TS)"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §9 (Phase 0)",
+          "text": "vyaptivisistalingapratipadakam vacanam upanayah"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "NS 1.1.33-39 detail (which member does what) not yet extracted"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "nigamana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.32 (Jha Vol. 1, p.955)",
+          "text": "Final Conclusion (tasmattatheti) as 5th factor"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "Varttika frg. (Jha Vol. 1, 1-2-8/9 region, L18747)",
+          "text": "Final Conclusion cannot be stated until concomitance ascertained beyond dispute — five-factor interdependence debate"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Varttika-region debate: nigamana asserts as proved vs pratijna states as to-be-proved; TS adds abadhitatva prayojana (Phase 0)"
+      ],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "paramarsa",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha",
+        "Nyaya (later commentary)"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §3 (Phase 0)",
+          "text": "vyaptivisistapaksadharmatajnanam paramarsah"
+        },
+        {
+          "layer": "SOURCE_LATER_COMMENTARY",
+          "locator": "Parisuddhi two-factor reading (Jha Vol. 1, L3487)",
+          "text": "Inference as means = (1) remembrance of invariable concomitance + (2) recognition of probans-presence in subject"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "TERM paramarsa unverified in NS/Bhashya/Varttika; the two-factor COGNITIVE content is prefigured in Bhashya/Parisuddhi without the term"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Baseline checks components across two stores, never the fused cognition (T2)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "paksata",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §2 D (Phase 0)",
+          "text": "sisasadhayisaviraha-visista-siddhyabhavah paksata; samsayottara-pratyaksa exclusion"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "TERM and doctrine unverified anywhere in NS/Bhashya/Varttika acquired text — currently TS-stratum only; NS debate-context analogues unsourced"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Blocking precondition D1; corpus expansion may find functional analogues (see CORPUS_IMPACT_ON_DECISIONS.md)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "vyaptigraha",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha",
+        "Nyaya-bhasya"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §7 (Phase 0)",
+          "text": "svayam eva bhuyodarsanena ... mahanasadiu vyaptim grhitva"
+        },
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1-1-5 Bhashya (Jha Vol. 1)",
+          "text": "Repeated kitchen-observation as the observation base; remembrance presupposes prior perception of concomitance"
+        },
+        {
+          "layer": "SOURCE_TRANSLATOR_NOTE",
+          "locator": "Jha/TS-D context (Phase 0 §7 D)",
+          "text": "vyabhicarajnana-viraha-sahakrta + tarka (karyakarana-prasanga) + svatah + samanya-pratyasatti; vajra counterexample to frequency-only"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "bhuyodarsana-term and full four-component account are TS-D stratum; NS stratum supplies repeated-observation + remembrance only"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Miner implements frequency only (D7)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "tarka",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha",
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §7 D (Phase 0)",
+          "text": "dhumanyor vyabhicara-sanka-nivartakah tarkah: karyakaranabhava-prasanga-laksanas tarka"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS Adhyaya I (Jha Vol. 1, coverage verified)",
+          "text": "tarka among 1.1.x topics (1.1.40 region per standard numbering — NOT verified in-extraction; do not cite number)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "NS tarka-laksana not yet extracted; TS tarka-as-defeater-discharger is the only sourced formulation"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "No tarka/consistency-discharge stage exists anywhere in baseline (D7)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "hetvabhasa_ns_old",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Nyaya-varttika"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.4-9 group (Jha Vol. 1; 1-2-9 verified p.560-561)",
+          "text": "Five: savyabhichara (Indecisive), viruddha, prakaranasama, sadhyasama, kalatita (Belated/Mistimed)"
+        },
+        {
+          "layer": "SOURCE_BHASYA",
+          "locator": "NS 1-2-9 Bhashya (Jha Vol. 1, p.561)",
+          "text": "kalatita: probans adduced behind time — sound-eternal-because-manifested-by-conjunction (colour analogy); manifestation pre/post-exists"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "NS 1-2-8/9 Varttika (Jha Vol. 1)",
+          "text": "Bauddha 'sound-eternal-because-intangible' redirected: indecisive, not unknown-probans; avyabhicara-term debates; conception of kalatita underwent change (Jha note)"
+        }
+      ],
+      "definitions": [
+        {
+          "layer": "SOURCE_TRANSLATOR_NOTE",
+          "locator": "Jha renderings (to verify against Sanskrit)",
+          "text": "Indecisive (savyabhichara/anaikantika); contrary; prakaranasama (equal-context/counterbalanced-context); sadhyasama (sadhya-like/unproved); kalatita (belated/mistimed)"
+        }
+      ],
+      "qualifications": [
+        "Sanskrit compounds OCR-degraded (prakaranasama/sadhyasama/kalatita verbatim forms NOT recovered); Jha English renderings verified, sutra-wording not"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Varttika/Jha note: kalatita conception changed over time; Bauddha counterexamples adjudicated per-category"
+      ],
+      "school_disagreements": [
+        "Bauddha tries intangible-sound as asiddha-counterexample; Varttika reclassifies it as indecisive — taxonomy boundary dispute in-corpus"
+      ],
+      "engineering_relevance": [
+        "Baseline implements the TS fivefold, NOT this list; prakaranasama/sadhyasama have no code counterpart"
+      ],
+      "formalization_risk": [
+        "CRITICAL: old fivefold != new fivefold; any hetvabhasa classifier must be stratum-parameterized (see hetvabhasa_historical_development.md)"
+      ]
+    },
+    {
+      "concept": "hetvabhasa_ts_new",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§17-28 (Phase 0, P1 PDF ~105-116)",
+          "text": "savyabhicara/viruddha/satpratipaksa/asiddha/badhita; subdivisions 3+3; stock examples; p.116 blocking theory"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Asiddha threefold sourced to Parisuddhi fragment (Udayana) — the one NS->TS bridge verified in-corpus (1-2-8/9 region)"
+      ],
+      "school_disagreements": [
+        "Bauddha reclassification dispute (above) shows category boundaries were contested, not given"
+      ],
+      "engineering_relevance": [
+        "Baseline 9-check gauntlet maps here (traceability T6-T12), not onto NS 1.2.4"
+      ],
+      "formalization_risk": [
+        "Presenting baseline checks as Gautama's list would be false; label TS-stratum always"
+      ]
+    },
+    {
+      "concept": "vada",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.1 (Jha Vol. 1, within acquired 1.2.1-20)",
+          "text": "Coverage verified (vada/jalpa/vitanda opening triad); passage text not yet extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Definitions not yet extracted; standard characterization (truth-aimed discussion with pramana+ tarka) UNSOURCED here — do not cite"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Candidate future dialogue protocol (unimplemented)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "jalpa",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.2 (Jha Vol. 1, within acquired range)",
+          "text": "Coverage verified; text not extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Victory-aimed debate with chala/jati/nigraha allowed — characterization unsourced in-extraction"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "vitanda",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.3 (Jha Vol. 1, within acquired range)",
+          "text": "Coverage verified; text not extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No-thesis refutation-only character unsourced in-extraction; Adhyaya V detail is Gap G-NS-01"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "nigrahasthana",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.19-20 region (Jha Vol. 1; 1-2-20 last marker)",
+          "text": "Nigrahasthana openings within acquired text; 22-fold detail lives in Adhyaya V (Gap)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Full defeat-situation taxonomy NOT acquired; hetvabhasa listed among nigrahasthanas per standard account — UNSOURCED here"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Future defeat/termination conditions for debate protocols; not yet designed"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "chala",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2.10-12 region (Jha Vol. 1, within acquired 1.2)",
+          "text": "Coverage verified (vak/chala openings); 1 hit located, text not extracted"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Threefold (vak/samanya/upacara) subdivision unsourced in-extraction"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "jati",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-varttika",
+        "Nyaya (later commentary)"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.2 (Jha Vol. 1, within acquired range); 24-fold detail in Adhyaya V (Gap G-NS-01)",
+          "text": "Coverage of openings verified; futility-rejoinder definition via similarity/dissimilarity noted in-notes"
+        },
+        {
+          "layer": "SOURCE_LATER_COMMENTARY",
+          "locator": "Jha note on jati (Vol. 1, L24467 region)",
+          "text": "Modern Logicians (Navya-Nyaya) define jati as bare similarity/dissimilarity rejoinder irrespective of invariable concomitance — Nyayasarvasva-type gloss (attribution via Jha only)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [
+        "Documented definition-shift: concomitance-indifferent (late) vs NS-context (to be sourced after Vol. 3)"
+      ],
+      "school_disagreements": [],
+      "engineering_relevance": [
+        "Similarity-without-concomitance rejoinders are the debate analogue of the miner-without-tarka problem (D7)"
+      ],
+      "formalization_risk": [
+        "Do not formalize jati from the late gloss alone; NS/Adhyaya V senses pending"
+      ]
+    },
+    {
+      "concept": "dravya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "dravya among sixteen padarthas"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§3/10-18 (Phase 0)",
+          "text": "Nine dravyas with lakshanas (prthvi-gandhavati etc.)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "Vaisesika grounding (G-VS-01/G-PR-01) pending; TS seeds validated against TS only"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "guna",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "guna among sixteen"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§4/19-33 (Phase 0)",
+          "text": "24 gunas with residences"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "24-cell residence/section audit still deferred (Phase 0 §8a)"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "karma",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §5 (Phase 0)",
+          "text": "Five karmas (utksepana etc.)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No NS karma-padartha passage extracted (category absent from NS 16; Vaisesika stratum pending)"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "samanya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Nyaya-bhasya",
+        "Nyaya-varttika",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "samanya among sixteen"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "Adhyaya II close (Jha Vol. 2, pp.1066+)",
+          "text": "Four inferences proving cow-generality distinct from individuals (comprehensive-cognition argument etc.) vs Bauddha deniers"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Bauddha deny perceptible generality; Nyaya proves via inference — extracted (see apoha)"
+      ],
+      "engineering_relevance": [
+        "Samanya-pratyasatti (universal-mediated vyaptigraha) is the learning-theory analogue (D7)"
+      ],
+      "formalization_risk": []
+    },
+    {
+      "concept": "visesa",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "visesa among sixteen"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §7 (Phase 0)",
+          "text": "vishesha as ultimate differentiator (seed data)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No NS visesa-laksana extracted"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "samavaya",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 1.1.1 (Jha Vol. 1)",
+          "text": "samavaya among sixteen"
+        },
+        {
+          "layer": "SOURCE_VARTIKA",
+          "locator": "1-1-5 Varttika alternatives (Jha Vol. 1)",
+          "text": "Same-substratum inherence offered as candidate concomitance-relation in Bauddha trilemma"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "No samavaya-laksana extracted; inherence-as-concomitance-candidate is debate-context only"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [],
+      "engineering_relevance": [],
+      "formalization_risk": []
+    },
+    {
+      "concept": "abhava",
+      "traditions": [
+        "Nyaya"
+      ],
+      "texts": [
+        "Nyaya-sutra",
+        "Tarkasamgraha"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.2.1 objector (Jha Vol. 2, p.882)",
+          "text": "abhava (antithesis/non-existence) as 8th pramana per objector"
+        },
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "TS §§9/80 (Phase 0)",
+          "text": "Fourfold abhava (prag/pradhvamsa/atyanta/anyonya)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Abhava-as-pramana (objector) vs abhava-as-padartha (Nyaya/TS); siddhanta reply not extracted"
+      ],
+      "engineering_relevance": [],
+      "formalization_risk": [
+        "Baseline atyantabhava-idiom in vyapti-guard is TS-D language; NS abhava-pramana debate is a different abhava-role — do not merge"
+      ]
+    },
+    {
+      "concept": "apoha",
+      "traditions": [
+        "Buddhist"
+      ],
+      "texts": [
+        "Nyaya-sutra (objections recorded)",
+        "Nyaya-varttika"
+      ],
+      "source_passages": [
+        {
+          "layer": "SOURCE_ROOT_TEXT",
+          "locator": "NS 2.2.59+ debate (Jha Vol. 2, pp.1036+, Bauddha objections)",
+          "text": "Some persons [Bauddha, denotation = apoha/negation-of-contrary]: vyakti/akrti/jati cannot be word-meaning; dilemmas on 'sat/being' (generality? object? relation? qualified individual?)"
+        }
+      ],
+      "definitions": [],
+      "qualifications": [
+        "One-sided: Bauddha objections + Nyaya replies partially read; NO independent Buddhist text acquired (G-DG-01)"
+      ],
+      "examples": [],
+      "counterexamples": [],
+      "commentarial_developments": [],
+      "school_disagreements": [
+        "Apoha (exclusion) vs vyakti/akrti/jati (positive denotata) — extracted as live debate, not decided here"
+      ],
+      "engineering_relevance": [
+        "Exclusion-based meaning is the noted alternative to the baseline's resemblance-based upamana; no implementation follows without sources"
+      ],
+      "formalization_risk": [
+        "Do not formalize apoha from Nyaya's report alone"
+      ]
+    }
+  ],
+  "meta": {
+    "construction": "Phase 1.5. Every entry records ONLY what the acquired corpus (Jha Vols. 1-2 + TS editions) supports. Empty arrays mean 'no evidence acquired', not 'no such content'. Buddhist/Navya-Nyaya/Vaisesika rows are relevance stubs pending acquisition; Gap IDs in CORPUS_ACQUISITION_MATRIX.md.",
+    "counts": {
+      "concepts": 41
+    },
+    "disclaimer": "No field is populated from generic model knowledge. Fragmentary layers (Tika, Parisuddhi, Bhasyachandra, Bauddha voices) are flagged per-passage."
+  }
+}

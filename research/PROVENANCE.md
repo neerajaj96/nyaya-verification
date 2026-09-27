@@ -52,3 +52,20 @@ ISBN 81-7120-674-3;
 ed. Y. V. Athalye, tr. M. R. Bodas, Bombay Sanskrit Series No. LV,
 Bhandarkar Oriental Research Institute, Poona, 2nd ed. re-impression 1930.
 Extraction method (`pdftotext -layout`) is documented in `source_audit.md`.
+
+## Phase 1.5 additions (corpus expansion, 2026-09-27)
+
+- `research/classical_sources/corpus/VOLUMES.md` — acquisition record for
+  three Nyāya-sūtra volumes (Jha translation set): Vol. 1 ACQUIRED (SHA-256
+  `2fb53c2e…f78`, Adhyāya I complete), Vol. 2 ACQUIRED (SHA-256
+  `41b5ad47…376`, Adhyaya II complete), Vol. 3 NOT ACQUIRED (auth-walled;
+  Gap G-NS-01). Working-text extractions live outside the repo.
+- New research artifacts (all created in Phase 1.5, none modifying Phase 0
+  files): `CORPUS_ARCHITECTURE.md`, `CORPUS_ACQUISITION_MATRIX.md`,
+  `concept_matrix.json` (41 concepts, corpus-only rule), 
+  `anumana_historical_development.md`, `vyapti_historical_development.md`,
+  `hetvabhasa_historical_development.md`, `SCHOOL_DISAGREEMENTS.md`,
+  `research/methodology.md` (four-way distinction),
+  `traceability/CORPUS_IMPACT_ON_DECISIONS.md` (D1–D10 re-evaluation, none
+  closed), `traceability/PHASE1_5_VALIDATION.md`.
+- PDFs are NOT vendored (see `corpus/VOLUMES.md` + validation report).
