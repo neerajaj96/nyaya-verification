@@ -89,3 +89,20 @@ Extraction method (`pdftotext -layout`) is documented in `source_audit.md`.
   `13febcfe…f90f0f`, 354 pages). Adhyāyas IV–V complete, I–V coverage now
   whole same-edition. Adjudication: `traceability/JHA_VOL4_ADJUDICATION.md`.
   PDF kept OUTSIDE the repo (`/tmp/opencode/ingest/phase15/vol4.pdf`).
+
+## Comparative task additions (Dignāga + Navya-Nyāya adjudication, 2026-09-27)
+
+- Dignāga PS (Iyengar 1930, Ch. I): Drive `1MIS4IfGY5k3bfYODld6Fj1uTcLFErxXW`,
+  3.5 MB, SHA-256 `e32f73358781c7c778c8c5934155be219981c00ff1c73eb993f5e2bdf557b034`,
+  141 PDF pages. Kept OUTSIDE repo (`/tmp/opencode/ingest/phase3/dignaga.pdf`).
+- Bhattacharya History of Navya-Nyāya in MITHILĀ (Vaidya/Darbhanga, pref.
+  22-4-58): Drive `1tSyGYGksB34dR9KIVtLoKVIIM-NJ9VG-`, 18 MB, SHA-256
+  `a446bce33a0b8fbc4ee3bba1ebedae3899550c16ec8c3dd945a0e553fcfd1949`,
+  246 pages. Outside repo. Title corrected vs brief ("Bengal").
+- Gaṅgeśa TC, BI Vol. I Pratyakṣa-khaṇḍa (+Rahasya; 1897/1974): Drive
+  `1KZLRwZZqY_ojUu5sp5-ihuNHMydrLVvO`, 37 MB, SHA-256
+  `1025508f2c82904fe806c3b2d35cf7cd8f0c624e4d16ea6acfdb3285aad3dec1`,
+  807 pages. Outside repo.
+- New files: research/classical_sources/comparative/ (6 files) +
+  traceability/COMPARATIVE_D1_D10_IMPACT.md, R_REQUIREMENTS_ASSESSMENT.md,
+  MINIMUM_NEXT_EXPERIMENT.md, ARCHITECTURE_COMPARISON_NOTES.md.

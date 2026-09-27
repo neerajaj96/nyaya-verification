@@ -100,3 +100,21 @@ or ruling missing) so a future phase can unblock precisely.
   attribution), G-VARDHAMANA, G-VISVANATHA (fragment voices in Vol. 4).
 - G-NS-01-remainder: Drive Vol. 3 file still unverified; if it ≠ Jha
   Vol. III, its contents are unknown (Vol. 4 does not cover it).
+
+## Comparative-task update (append-only)
+
+- G-GG-01 SPLIT: Pratyakṣa-khaṇḍa PARTIALLY_ACQUIRED (BI Vol. I, 807pp);
+  Anumāna-khaṇḍa root = G-GG-01-remainder (still missing; blocks D5-proof,
+  D7-siddhānta, D8-kevalavyatireki-root). D5 suspected-cap upgraded to
+  doctrine-backed (no new procedure).
+- G-DG-01 SPLIT: PS Ch. I acquired (structure/transmission only);
+  Ch. II (trairūpya) = G-DG-01-remainder, still P1 blocker. Hetucakra
+  content undescribed (adjacent gap noted).
+- D1: second pakṣatā complex (NN delimitation) recorded; R1–R3 stay
+  NS-scoped; no gate invented.
+- D8 priority raised (kevala currency cross-stratum); content still pending.
+- R2/R3/R12: INSUFFICIENT as framed (readability + reconstruction +
+  exposition/root gaps proposed as R2*/R3*/R12*; adoption blocked on draft
+  in-repo).
+- Minimum experiment: SELECTION SPEC only (12 cases, case 3 BLOCKED);
+  runnable conditions unmet.
