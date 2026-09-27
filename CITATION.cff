@@ -1,0 +1,85 @@
+cff-version: 1.2.0
+title: Nyāya Verification
+message: >-
+  If you use this research repository, please cite it as below. No new
+  verifier is implemented as of Phase 1; cite the baseline engine and the
+  classical sources separately for their respective contributions.
+type: software
+version: 0.1.0
+date-released: 2026-09-27
+repository-code: https://github.com/neerajaj96/nyaya-verification
+license: MIT
+keywords:
+  - Nyaya
+  - Tarkasamgraha
+  - vyapti
+  - hetvabhasa
+  - neuro-symbolic
+  - verification
+authors:
+  # No personal author identity was established in the baseline metadata
+  # (the delivered engine carries no author field); the repository creator
+  # account is recorded by alias without inventing a personal name.
+  - alias: neerajaj96
+    email: neerajajsarma@gmail.com
+references:
+  - type: book
+    title: Tarka-Samgraha with the Dipika of Annambhatta and Notes
+    authors:
+      - family-names: Annambhatta
+    translators:
+      - family-names: Virupakshananda
+        given-names: Swami
+    publisher:
+      name: Sri Ramakrishna Math
+      city: Mylapore, Madras (Chennai)
+    year: 1994
+    isbn: 81-7120-674-3
+    notes: >-
+      Second edition (1994; reprint 2001). Primary source PDF 1 in
+      research/source_audit.md. Root text plus Annambhatta's own Dipika.
+  - type: book
+    title: >-
+      Tarka-Samgraha of Annambhatta, with the author's own Dipika and
+      Govardhana's Nyaya-Bodhini
+    authors:
+      - family-names: Annambhatta
+    editors:
+      - family-names: Athalye
+        given-names: Yashwant Vasudev
+    translators:
+      - family-names: Bodas
+        given-names: Mahadev Rajaram
+    collection-title: Bombay Sanskrit Series No. LV
+    publisher:
+      name: Bhandarkar Oriental Research Institute
+      city: Poona
+    year: 1930
+    notes: >-
+      Second edition re-impression (first edition 1897; second 1918).
+      Primary source PDF 2 in research/source_audit.md. Includes
+      Govardhana's Nyaya-Bodhini and ~300 pages of critical Notes. This is
+      also the edition vendored as the baseline engine's source-text corpus.
+  - type: software
+    title: Nyaya Engine (baseline)
+    notes: >-
+      Pre-existing neuro-symbolic Nyaya-Vaisesika engine preserved verbatim
+      under src/nyaya_verification/legacy_engine/ (zip payload 2026-07-21;
+      no upstream VCS history; per-file SHA-256 in
+      research/software/baseline_test_report.md). 31/31 stdlib unittest
+      suite passing. Zero required dependencies; optional guarded
+      sentence-transformers import (not installed). Original terms:
+      user's own zero-cost local use (see LICENSE).
+preferred-citation:
+  type: unpublished
+  title: >-
+    Nyaya Verification, Phase 0-1: reconnaissance, source traceability, and
+    reproducible baseline
+  authors:
+    - alias: neerajaj96
+      email: neerajajsarma@gmail.com
+  year: 2026
+  notes: >-
+    Phase 0 research (15 classical-to-code mappings, 10 open
+    implementation/source conflicts) plus verbatim baseline import.
+    Evidence: research/INITIAL_FINDINGS.md.

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyaya-verification"
+version = "0.1.0"
+description = "Research repository for mechanically grounded verification of Nyaya inference (vyapti, hetvabhasa)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+# Phase 1: no runtime dependencies by design.
+# The baseline engine (legacy_engine/) is intentionally NOT packaged: it is a
+# flat, package-less module set preserved verbatim and excluded from the build
+# (no __init__.py inside legacy_engine/, so setuptools will not include it).
+dependencies = []
+
+[project.optional-dependencies]
+# Mirrors the baseline's single optional upgrade path; never required.
+dense-embeddings = ["sentence-transformers"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nyaya_verification*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
