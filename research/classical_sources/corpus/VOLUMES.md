@@ -144,3 +144,29 @@ Drive page fetch → HTTP 401 / sign-in redirect).
   Adhyāya-III evidence gap CLOSED via verified same-edition alternate;
   Adhyāya IV–V (Jha Vol. IV) still missing. Detail in
   `corpus/ACQUISITION_PHASE_2B.md`.
+
+## Volume 4 — ACQUIRED VIA DRIVE (Phase 2B+1, 2026-09-27)
+
+- Drive source: `https://drive.google.com/file/d/1OYRzPDrwpmw51ZVmwYUVFUfrnTo8EEjP/view?usp=drivesdk`
+  (direct gdown download, 100% complete, NO auth wall).
+- Local (outside repo): `/tmp/opencode/ingest/phase15/vol4.pdf`.
+- SHA-256: `13febcfef76cb4b291d23fd39bf7045d3bf88cf71c86acd9909fea51c8f90f0f`.
+- Size: 35,673,655 bytes (35.7 MB); 354 PDF pages (`pdfinfo`: ABBYY
+  FineReader 2009-02-03; 360×569.88 pts — series format).
+- Edition: Jha / Motilal Banarsidass 1984 reprint (serial 1912–19), Vol. IV,
+  ISBN 0-89581-754-3 — title/imprint verified same set as Vols. 1–3.
+- Coverage (verified from contents + tail colophons): Jha pp. 1429–1772+ =
+  **Adhyāya IV complete** (karma/doṣa/pretyabhāva/phala/duḥkha/apavarga/
+  tattvajñāna/avayava/aṇu/bāhyārtha) + **Adhyāya V complete** (5.1:
+  24 jātis + six steps; 5.2: 22 nigrahasthānas in seven heads; Bhāṣya +
+  Vārttika closing colophons for the whole NS). With Vols. 1–3, NS I–V
+  fully covered same-edition.
+- Layers: same six (root transliterated+translated; Bhāṣya + Vārttika full;
+  Tātparya/Pariśuddhi/Bhāṣyachandra/Vardhamāna/Viśvanātha/
+  Nyāyanibandhaprakāśa fragments; Jha notes). New voice attributions:
+  "Bodhasiddhi (Udayana)" (Jha fn, 5-1-19 region) — lead only.
+- Working text: `pdftotext -layout` (732,769 chars, 354 form-feeds);
+  0 Devanāgarī (series convention). OCR: English HIGH (image-matched PDF
+  p.317 = Jha p.1736, 5.2.1 list); transliteration MEDIUM.
+- Adjudication: `research/traceability/JHA_VOL4_ADJUDICATION.md`. PDF NOT
+  committed (hashes + locators only).

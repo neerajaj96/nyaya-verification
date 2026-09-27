@@ -36,3 +36,20 @@ notes. TS column per Phase 0 extraction.
   absent late without being "renamed."
 - saṃśaya inverts the pattern: root-rich, synthesis-thin — TS presupposes
   what NS theorizes, grounding D1's asymmetry warning.
+
+## Vol. 4 update (append-only; cells above stand)
+
+- vyāpti/concomitance row: Vārttika/Gautama PRACTICE cells strengthened —
+  add "4.1.5 root no-invariable-concomitance idiom; 3.1.1–3 negative-
+  concomitance with universality language (Vol. III); 5-1-9 tri-temporal
+  causal test" as practice-side evidence. TERM cells unchanged (still
+  TS-only). No cell flips to EXPLICIT-definition outside TS.
+- hetvābhāsa row: add "5.2 seven-head grouping; hetvābhāsa→nigraha
+  same-forms mapping (5-2-24); propounder/answerer routing (Tātparya
+  5-2-22)" to Gautama/Vārttika/Later cells as SUPPORTING multi-route
+  reporting. Taxonomy rows unchanged (A-list vs C-list split stands).
+- saṃśaya row: add "saṃśaya-sama dual-similarity exhibit (5-1-14)" to
+  Gautama cell; Tātparya sādhyasama/anuyojya distinction to Later cell.
+- New fragment voices recorded (Vardhamāna, Viśvanātha,
+  Nyāyanibandhaprakāśa, "Bodhasiddhi (Udayana)" attribution): Later-
+  commentary column widened WITHOUT filling G-UD-01.

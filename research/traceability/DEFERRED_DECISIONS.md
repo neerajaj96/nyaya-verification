@@ -85,3 +85,18 @@ or ruling missing) so a future phase can unblock precisely.
 - `dignaga_trairupya.md`, `TRIARUPYA_COMPARISON.md`,
   `parisuddhi_targeted_extraction.md`: deliberately not created (no material;
   recorded in `corpus/ACQUISITION_PHASE_2B.md`).
+
+## Vol. 4 update (append-only)
+
+- D4 Adhyāya-V holding reason LIFTED (jāti/nigraha detail acquired and
+  sampled: no universal-pakṣa analogue surfaced; full term-audit pending —
+  search-failure ≠ absence). Remaining D4 blockers: analytic (no analogue
+  evidenced) + domain-model absence.
+- D6 admission: +2 sourced sub-constraints (tri-temporal test; role routing)
+  available for next adjudication round; measures still DEFERRED.
+- D7 NS-checks: +root concomitance-failure idiom (4.1.5) and efficacy idiom
+  (5-1-19) available; frequency-block stands (third stratum of failure).
+- New named leads (NOT acquisitions): G-BODHA ("Bodhasiddhi (Udayana)"
+  attribution), G-VARDHAMANA, G-VISVANATHA (fragment voices in Vol. 4).
+- G-NS-01-remainder: Drive Vol. 3 file still unverified; if it ≠ Jha
+  Vol. III, its contents are unknown (Vol. 4 does not cover it).

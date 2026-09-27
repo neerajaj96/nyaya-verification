@@ -82,3 +82,10 @@ Extraction method (`pdftotext -layout`) is documented in `source_audit.md`.
 - No Pariśuddhi/Dignāga files acquired (BLOCKED / NOT_SPECIFIED per
   `corpus/ACQUISITION_PHASE_2B.md`); comparison/extraction files for them
   deliberately not created.
+
+## Vol. 4 addition (Phase 2B+1, 2026-09-27)
+
+- Jha Vol. IV via Drive (link above; 35,673,655 bytes, SHA-256
+  `13febcfe…f90f0f`, 354 pages). Adhyāyas IV–V complete, I–V coverage now
+  whole same-edition. Adjudication: `traceability/JHA_VOL4_ADJUDICATION.md`.
+  PDF kept OUTSIDE the repo (`/tmp/opencode/ingest/phase15/vol4.pdf`).

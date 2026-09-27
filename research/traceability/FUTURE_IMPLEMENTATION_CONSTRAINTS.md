@@ -67,3 +67,17 @@ constraints below bind the SHAPE of future work, not its outcomes.
   held anywhere in the repo).
 - Retrieval-based counterexample semantics (N3 forbids the equation;
   no retrieval mechanism specified).
+
+## Vol. 4 additions (Phase 2B+1; sourced in JHA_VOL4_ADJUDICATION.md)
+
+13. TRI-TEMPORAL ADMISSION (5-1-9 Vārttika): counter-instance admission MUST
+    pass never-produced / does-not-produce / will-not-produce-as-cause before
+    weighing. (NC-C8)
+14. EXAMPLE-DEMAND TYPING (Tātparya sādhyasama/anuyojya): full-five-factor
+    demands vs pramāṇa-asks routed as opponent-moves, never as gate criteria.
+    (NC-C9)
+15. ROLE-ROUTED DEFEAT (5-2-24 + Tātparya 5-2-22): fallacy→defeat mapping
+    preserves same-forms taxonomy AND propounder/answerer routing. (NC-C10)
+16. STAGE VOCABULARY FIRST (4.2.1/38): epistemic lifecycles use
+    appearance/development/defense terms; PROVED/REFUTED/etc. require
+    adjudication. (NC-C11)
